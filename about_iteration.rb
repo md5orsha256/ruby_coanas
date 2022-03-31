@@ -131,4 +131,7 @@ class AboutIteration < Neo::Koan
   # In addition, all the logic of working with the file is encapsulated in 
   # one block of code, which makes it more readable.
 
+  # UPD: Additionally, it eliminates redundant code duplication and makes 
+  # code blocks more "neat"
+
 end
