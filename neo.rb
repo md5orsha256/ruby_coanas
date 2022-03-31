@@ -267,6 +267,7 @@ module Neo
         guide_through_error
         a_zenlike_statement
         show_progress
+        exit(1)
       else
         end_screen
       end
