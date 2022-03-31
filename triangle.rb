@@ -14,6 +14,9 @@
 #   about_triangle_project_2.rb
 #
 def triangle(a, b, c)
+  sorted_sides = [a, b, c].sort
+  fail TriangleError if sorted_sides.first < 0 || sorted_sides[0...-1].sum <= sorted_sides[-1]
+
   if a == b && b == c
     :equilateral
   elsif a == b || b == c || a == c
